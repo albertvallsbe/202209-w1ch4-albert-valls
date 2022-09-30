@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@400;800&display=swap');
 :root {
     --fonts: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    --color-main: #666666;
-    --container-padding-horizontal: 20px;
+    --color-text-principal: #222222;
+    --color-text-secondary: #ffffff;
+    --container-padding-horizontal: 48px;
     --container-padding-vertical: 20px;
     --font-size-main: 1.125rem;
 }
@@ -18,4 +19,8 @@ html {
 body {
     margin: 0;
     font-size: var(--font-size-main);
+}
+
+.main-content {
+    padding: 100px var(--container-padding-horizontal);
 }
